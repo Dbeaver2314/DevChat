@@ -19,7 +19,6 @@ socket.on("roomUsers", ({ room, users }) => {
   outputRoomUsers(users);
 });
 socket.on("message", (message) => {
-  console.log(message);
   outputMessage(message);
   //set scroll to bottom
   chatMessages.scrollTop = chatMessages.scrollHeight;
