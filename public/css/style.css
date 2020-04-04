@@ -97,7 +97,7 @@ a {
 .chat-messages .message {
   padding: 10px;
   margin-bottom: 15px;
-  background-color: var(--light-color);
+  background-color: #fff;
   border-radius: 5px;
 }
 
